@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
       cell.innerText =element.value;
     });
   }
-
+  //clear form
   const clearForm = () => {
     const buySell = document.getElementById('buysell');
     const rent = document.getElementById('rent');
